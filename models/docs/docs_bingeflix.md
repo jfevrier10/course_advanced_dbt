@@ -250,5 +250,3 @@ The cost charged by the ads platform per thousand impressions.
 {% docs bingeflix_ad_ctr %}
 The click through rate on the campaign impressions.
 {% enddocs %}
-
-{% enddocs %}
