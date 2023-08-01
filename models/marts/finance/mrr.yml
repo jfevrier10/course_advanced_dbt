@@ -1,15 +1,15 @@
 models:
   - name: mrr
-    description: '{{ doc(bingeflix_mrr_model_description) }}'
+    description: '{{ doc("bingeflix_mrr_model_description") }}'
     columns:
       - name: surrogate_key
-        description: '{{ doc(bingeflix_mrr_surrogate_key) }}'
+        description: '{{ doc("bingeflix_mrr_surrogate_key") }}'
         tests:
           - not_null
           - unique
 
       - name: date_month
-        description: '{{ doc(bingeflix_mrr_date_month) }}'
+        description: '{{ doc("bingeflix_mrr_date_month") }}'
 
       - name: user_id
         description: '{{ doc("bingeflix_user_id") }}'
@@ -27,19 +27,19 @@ models:
         description: '{{ doc("bingeflix_subscription_plan_name") }}'
 
       - name: mrr_amount
-        description: '{{ doc(bingeflix_mrr_amount) }}'
+        description: '{{ doc("bingeflix_mrr_amount") }}'
 
       - name: mrr_change
-        description: '{{ doc(bingeflix_mrr_change)}}'
+        description: '{{ doc("bingeflix_mrr_change")}}'
 
       - name: retained_mrr_amount
-        description: '{{ doc(bingeflix_mrr_retained_mrr_amount) }}'
+        description: '{{ doc("bingeflix_mrr_retained_mrr_amount") }}'
 
       - name: previous_month_mrr_amount
-        description: '{{ doc(bingeflix_mrr_previous_month_mrr_amount) }}'
+        description: '{{ doc("bingeflix_mrr_previous_month_mrr_amount") }}'
 
       - name: change_category
-        description: '{{ doc(bingeflix_mrr_change_category) }}'
+        description: '{{ doc("bingeflix_mrr_change_category") }}'
 
       - name: month_retained_number
-        description: '{{ doc(bingeflix_mrr_month_retained_number) }}'
+        description: '{{ doc("bingeflix_mrr_month_retained_number") }}'

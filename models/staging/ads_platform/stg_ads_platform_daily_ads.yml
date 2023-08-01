@@ -1,34 +1,34 @@
 models:
   - name: stg_ads_platform_daily_ads
-    description: '{{ doc(bingeflix_ad_description) }}'
+    description: '{{ doc("bingeflix_ad_description") }}'
     columns:
       - name: date
-        description: '{{ doc(bingeflix_ad_date) }}'
+        description: '{{ doc("bingeflix_ad_date") }}'
         tests:
           - not_null
 
       - name: campaign_id
-        description: '{{ doc(bingeflix_ad_campaign_ad) }}'
+        description: '{{ doc("bingeflix_ad_campaign_ad") }}'
         tests:
           - not_null
 
       - name: surrogate_key
-        description: '{{ doc(bingeflix_ad_surrogate_key) }}'
+        description: '{{ doc("bingeflix_ad_surrogate_key") }}'
         tests:
           - not_null
           - unique
 
       - name: spend
-        description: '{{ doc(bingeflix_ad_spend) }}'
+        description: '{{ doc("bingeflix_ad_spend") }}'
         tests:
           - not_null
 
       - name: cpm
-        description: '{{ doc(bingeflix_ad_cdm) }}'
+        description: '{{ doc("bingeflix_ad_cdm") }}'
         tests:
           - not_null
 
       - name: ctr
-        description: '{{ doc(bingeflix_ad_ctr) }}'
+        description: '{{ doc("bingeflix_ad_ctr") }}'
         tests:
           - not_null
