@@ -1,5 +1,5 @@
 models:
-  - name: mrr
+  - name: fct_mrr
     description: '{{ doc("bingeflix_mrr_model_description") }}'
     columns:
       - name: surrogate_key

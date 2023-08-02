@@ -12,7 +12,7 @@ This model contains information about Bingeflix users.
 The unique identifier of the Bingeflix user.
 {% enddocs %}
 
-{$ docs bingeflix_user_created_at %}
+{% docs bingeflix_user_created_at %}
 When the user account was created. 
 {% enddocs %}
 
@@ -159,7 +159,7 @@ The number of months the subscription has been retained since it was started (fi
 
 ## Dates
 
-{% docs bingeflix_dim_dates_model_description  %}
+{% docs bingeflix_dim_dates_model_description %}
 This is a calendar table including all the consecutive dates between the 2019-01-01 and 2030-01-01. It also includes week, month, quarter, year, and other values associated with a specific date.
 {% enddocs %}
 
@@ -213,7 +213,7 @@ The unique identifier for the session.
 The number of times the user logged in during the specified session.
 {% enddocs %}
 
-{% docs bingeflix_user_logged_out_count % }
+{% docs bingeflix_user_logged_out_count %}
 The number of times the user logged out during the specified session.
 {% enddocs %}
 
@@ -240,7 +240,7 @@ The surrogate key.
 {% enddocs %}
 
 {% docs bingeflix_ad_spend %}
- The amount spent on the campaign.
+The amount spent on the campaign.
 {% enddocs %}
 
 {% docs bingeflix_ad_cdm %}
