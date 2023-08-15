@@ -1,0 +1,32 @@
+seeds:
+  - name: unit_test_input_dim_dates
+    config:
+      column_types:
+        CALENDAR_DATE: DATE
+        DAY_OF_MONTH: INTEGER
+  - name: unit_test_input_dim_subscriptions
+    config:
+      column_types:
+        SUBSCRIPTION_ID: NUMBER(38, 0)
+        USER_ID: NUMBER(38, 0)
+        STARTS_AT: TIMESTAMP_NTZ
+        ENDS_AT: TIMESTAMP_NTZ
+        PLAN_NAME: VARCHAR
+        PRICING: FLOAT
+        BILLING_PERIOD: VARCHAR
+  - name: unit_test_output_fct_mrr
+    config:
+      column_types:
+        SURROGATE_KEY: VARCHAR
+        DATE_MONTH: DATE
+        USER_ID: NUMBER(38, 0)
+        SUBSCRIPTION_ID: NUMBER(38, 0)
+        STARTS_AT: TIMESTAMP_NTZ
+        ENDS_AT: TIMESTAMP_NTZ
+        PLAN_NAME: VARCHAR
+        MRR_AMOUNT: FLOAT
+        MRR_CHANGE: FLOAT
+        RETAINED_MRR_AMOUNT: FLOAT
+        PREVIOUS_MONTH_MRR_AMOUNT: FLOAT
+        CHANGE_CATEGORY: VARCHAR
+        MONTH_RETAINED_NUMBER: NUMBER(38, 0)

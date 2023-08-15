@@ -24,3 +24,9 @@ models:
     +materialized: view
     +grants:
       select: ['transformer', 'reporter']
+
+seeds:
+  course_advanced_dbt:
+    unit_testing:
+      +schema: unit_testing
+      +tags: unit_testing

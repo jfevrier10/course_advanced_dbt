@@ -1,6 +1,10 @@
 models:
   - name: fct_mrr
     description: '{{ doc("bingeflix_mrr_model_description") }}'
+    tests:
+      - dbt_utils.equality:
+            compare_model: ref('unit_test_output_fct_mrr')
+            tags: ['unit_testing']
     columns:
       - name: surrogate_key
         description: '{{ doc("bingeflix_mrr_surrogate_key") }}'

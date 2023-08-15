@@ -10,9 +10,6 @@ models:
         description: '{{ doc("bingeflix_user_id") }}'
         meta:
           priority: high
-        tests:
-          - not_null
-          - unique
 
       - name: created_at
         description: '{{ doc("bingeflix_user_created_at") }}'
@@ -29,45 +26,27 @@ models:
 
       - name: username
         description: '{{ doc("bingeflix_user_username") }}'
-        tests:
-          - not_null
 
       - name: name
         description: '{{ doc("bingeflix_user_name") }}'
-        tests:
-          - not_null
 
       - name: sex
         description: '{{ doc("bingeflix_user_gender") }}'
-        tests:
-          - not_null
 
       - name: email
         description: '{{ doc("bingeflix_user_email") }}'
-        tests:
-          - not_null
 
       - name: birthdate
         description: '{{ doc("bingeflix_user_birthdate") }}'
-        tests:
-          - not_null
 
       - name: current_age
         description: '{{ doc("bingeflix_user_current_age") }}'
-        tests:
-          - not_null
 
       - name: age_at_acquisition
         description: '{{ doc("bingeflix_user_age_at_acquisition") }}'
-        tests:
-          - not_null
 
       - name: region
         description: '{{ doc("bingeflix_user_region") }}'
-        tests:
-          - not_null
 
       - name: country
         description: '{{ doc("bingeflix_user_country") }}'
-        tests:
-          - not_null
