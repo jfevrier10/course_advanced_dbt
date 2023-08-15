@@ -13,7 +13,7 @@ The unique identifier of the Bingeflix user.
 {% enddocs %}
 
 {% docs bingeflix_user_created_at %}
-When the user account was created. 
+When the user account was created.
 {% enddocs %}
 
 {% docs bingeflix_user_phone_number %}
@@ -33,15 +33,15 @@ The full name of the user (first and last).
 {% enddocs %}
 
 {% docs bingeflix_user_gender %}
-The user's gender. 
+The user's gender.
 {% enddocs %}
 
 {% docs bingeflix_user_email %}
-The user's email address. 
+The user's email address.
 {% enddocs %}
 
 {% docs bingeflix_user_birthdate %}
-The user's bithdate. 
+The user's bithdate.
 {% enddocs %}
 
 {% docs bingeflix_user_current_age %}
@@ -49,11 +49,11 @@ The user's current age.
 {% enddocs %}
 
 {% docs bingeflix_user_age_at_acquisition %}
-The age of the user when they became a Bingeflix user. 
+The age of the user when they became a Bingeflix user.
 {% enddocs %}
 
 {% docs bingeflix_user_region %}
-Where the user lives. 
+Where the user lives.
 {% enddocs %}
 
 {% docs bingeflix_user_country %}

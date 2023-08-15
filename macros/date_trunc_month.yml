@@ -1,0 +1,10 @@
+macros:
+  - name: date_trunc_month
+    descriptions: macro used to truncate date month
+    arguments:
+      - name: column_name
+        type: timestamp
+        description: The column name of timestamp
+      - name: date_part
+        type: string
+        description: The date part to specify month truncation
